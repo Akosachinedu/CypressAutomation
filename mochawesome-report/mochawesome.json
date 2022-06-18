@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-06-13T22:48:21.063Z",
+    "end": "2022-06-13T22:48:44.969Z",
+    "duration": 23906,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "35d48592-76c8-4d5a-85d8-ad5e28146252",
+      "title": "",
+      "fullFile": "cypress/integration/RegressionTest.js",
+      "file": "cypress/integration/RegressionTest.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f285607b-eb75-4624-9a35-c86712270690",
+          "title": "Instagram Regression Test suite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validate that user with invalid details cannot login to the Instagram successfully",
+              "fullTitle": "Instagram Regression Test suite Validate that user with invalid details cannot login to the Instagram successfully",
+              "timedOut": null,
+              "duration": 16884,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//Login\ncy.Login({}); //Assert login with wrong details.\ncy.AssertLoginWrongDetails({});",
+              "err": {},
+              "uuid": "1c01fea6-245f-4d86-a58b-ad973aea75fe",
+              "parentUUID": "f285607b-eb75-4624-9a35-c86712270690",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1c01fea6-245f-4d86-a58b-ad973aea75fe"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 16884,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
